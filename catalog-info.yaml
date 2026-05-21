@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: DSSP-TargetP-16
+  annotations:
+    github.com/project-slug: BackstageSSPPoC/DSSP-TargetP-16
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: BackstageSSPPoC/DSSP-TargetP-16/main
+    argocd/app-name: dssp-targetp-16-dev
+    backstage.io/kubernetes-id: DSSP-TargetP-16
+    sonarqube.org/project-key: dssp-targetp-16
+spec:
+  type: service
+  lifecycle: dev
+  owner: user:default/guest
