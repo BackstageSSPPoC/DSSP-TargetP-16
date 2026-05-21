@@ -66,7 +66,7 @@ pipeline {
         stage('Run Tests') {
             steps {
                 sh '''
-                
+                . venv/bin/activate && echo 'No tests to run'
                 '''
             }
         }
